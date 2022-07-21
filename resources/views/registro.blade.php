@@ -1,5 +1,9 @@
-<h2>REGISTRO DE PRODUCTOS</h2>
+@extends('layouts.master')
+  @section('title', 'Registro')
+  
+  @section('content')
 
+<h2>REGISTRO DE PRODUCTOS</h2>
   
 <br><div class="mb-3 row">
   <label for="inputId" class="col-sm-2 col-form-label">Id</label>
@@ -26,7 +30,7 @@
   </div>
 
 <br><div class="mb-3 row">
-  <label for="inputSucursal" class="col-sm-2 col-form-label">Sucursal donde está</label>
+  <label for="inputSucursal" class="col-sm-2 col-form-label">Sucursal</label>
   <div class="col-sm-10">
     <input type="text" class="form-control" id="inputSucursal">
   </div>
@@ -48,3 +52,5 @@
   <div class="col-sm-10">
     <input type="number" class="form-control" id="inputPrecio" min="0">
   </div>
+
+  @stop

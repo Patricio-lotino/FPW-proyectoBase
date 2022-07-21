@@ -1,12 +1,9 @@
 @extends('layouts.master')
-
-@section('header')
-
-<h2>Asignación de Productos a las Sucursales</h2>
-
-@stop
+@section('title', 'Asignación')
 
 @section('content')
+
+<h2>Asignación de productos a las sucursales</h2>
 
 <br><div class="mb-3 row">
   <label for="inputCodigo" class="col-sm-2 col-form-label">Código</label>
