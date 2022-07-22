@@ -5,6 +5,9 @@
 
 <meta charset="UTF-8"> 
 
+Agregar  meta charset// 
+<meta charset="UTF-8"> 
+
 <h2>REGISTRO DE PRODUCTOS</h2>
   
 <br><div class="mb-3 row">
@@ -61,8 +64,12 @@
   <div class="col-sm-10">
     <input type="number" class="form-control" id="inputPrecio" min="0">
   </div>
+<<<<<<< HEAD
   </div>
   
+=======
+
+>>>>>>> 8ad24a9dfa692120eab25c8a5827ac1ae710348f
   <br /><button type="submit" class="btn btn-primary">Registrar Producto</button>
   
   @stop

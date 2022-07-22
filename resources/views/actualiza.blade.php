@@ -6,6 +6,9 @@
  
 <meta charset="UTF-8"> 
 
+Agregar  meta charset// 
+  <meta charset="UTF-8"> 
+
 <h2>Actualizar un producto</h2>
 
 <h4>Ingrese el código del producto para actualizar</h4>
@@ -16,7 +19,10 @@
     <input type="text" class="form-control" id="inputCodigo">
   </div><br>
   <button type="submit" class="btn btn-primary">Ingresar</button>
+<<<<<<< HEAD
 </div>
+=======
+>>>>>>> 8ad24a9dfa692120eab25c8a5827ac1ae710348f
 
   <br><h4>ACTUALIZAR</h4> 
 

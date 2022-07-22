@@ -4,7 +4,12 @@
 
 @section('content')
 
+<<<<<<< HEAD
 <meta charset="UTF-8"> 
+=======
+Agregar  meta charset// 
+  <meta charset="UTF-8"> 
+>>>>>>> 8ad24a9dfa692120eab25c8a5827ac1ae710348f
   
 <h2>Asignación de productos a las sucursales</h2>
 

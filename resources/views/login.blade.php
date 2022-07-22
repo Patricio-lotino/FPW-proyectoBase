@@ -4,6 +4,10 @@
   
   @section('content')
   
+<<<<<<< HEAD
+=======
+  Agregar  meta charset// 
+>>>>>>> 8ad24a9dfa692120eab25c8a5827ac1ae710348f
   <meta charset="UTF-8"> 
 
   <h2>Ingresa tu login y clave del sistema</h2>
@@ -22,6 +26,8 @@
     </div>
     </div>
     
+    <br /><button type="submit" class="btn btn-primary">Ingresar</button>
+
     <br /><button type="submit" class="btn btn-primary">Ingresar</button>
 
     @stop

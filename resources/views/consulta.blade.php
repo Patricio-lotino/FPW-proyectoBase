@@ -4,7 +4,14 @@
 
 @section('content')
 
+<<<<<<< HEAD
 <meta charset="UTF-8"> 
+=======
+Agregar  meta charset// 
+  <meta charset="UTF-8"> 
+
+<h2>Consulta de Productos</h2>
+>>>>>>> 8ad24a9dfa692120eab25c8a5827ac1ae710348f
 
 <h2>Consulta de Productos</h2>
 
@@ -44,5 +51,9 @@
   </div>
 
   <br /><button type="submit" class="btn btn-primary">Buscar</button>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8ad24a9dfa692120eab25c8a5827ac1ae710348f
 
   @stop
