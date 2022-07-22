@@ -3,6 +3,9 @@
   
   @section('content')
   
+  Agregar  meta charset// 
+  <meta charset="UTF-8"> 
+
   <h2>Ingresa tu login y clave del sistema</h2>
   
   <br><div class="mb-3 row">
@@ -16,5 +19,7 @@
     <div class="col-sm-10">
       <input type="password" class="form-control" id="inputPassword">
     </div>
+
+    <br /><button type="submit" class="btn btn-primary">Ingresar</button>
 
     @stop

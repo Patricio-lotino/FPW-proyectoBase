@@ -3,6 +3,9 @@
 
 @section('content')
 
+Agregar  meta charset// 
+  <meta charset="UTF-8"> 
+  
 <h2>Asignación de productos a las sucursales</h2>
 
 <br><div class="mb-3 row">

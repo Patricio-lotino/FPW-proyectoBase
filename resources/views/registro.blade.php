@@ -3,6 +3,9 @@
   
   @section('content')
 
+Agregar  meta charset// 
+<meta charset="UTF-8"> 
+
 <h2>REGISTRO DE PRODUCTOS</h2>
   
 <br><div class="mb-3 row">
@@ -53,4 +56,6 @@
     <input type="number" class="form-control" id="inputPrecio" min="0">
   </div>
 
+  <br /><button type="submit" class="btn btn-primary">Registrar Producto</button>
+  
   @stop

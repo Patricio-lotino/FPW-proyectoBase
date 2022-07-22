@@ -3,6 +3,9 @@
 
 @section('content')
 
+Agregar  meta charset// 
+  <meta charset="UTF-8"> 
+
 <h2>Actualizar un producto</h2>
 
 <h4>Ingrese el código del producto para actualizar</h4>
@@ -12,6 +15,7 @@
   <div class="col-sm-10">
     <input type="text" class="form-control" id="inputCodigo">
   </div><br>
+  <button type="submit" class="btn btn-primary">Ingresar</button>
 
   <br><h4>ACTUALIZAR</h4> 
 
@@ -33,9 +37,6 @@
     <input type="text" class="form-control" id="inputDescripcion">
   </div>
 
-  <div class="container">
-    <input type="button" value="ACTUALIZAR">
-  </div>
-  
+  <br /><button type="submit" class="btn btn-primary">Actualizar</button>
 
   @stop

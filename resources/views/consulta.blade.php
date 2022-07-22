@@ -3,6 +3,9 @@
 
 @section('content')
 
+Agregar  meta charset// 
+  <meta charset="UTF-8"> 
+
 <h2>Consulta de Productos</h2>
 
 
@@ -38,8 +41,7 @@
     <input type="text" class="form-control" id="inputSucursal">
   </div>
 
-  <div class="container">
-    <input type="button" value="Resultado de la búsqueda">
-  </div><br>
+  <br /><button type="submit" class="btn btn-primary">Buscar</button>
+
 
   @stop
