@@ -1,10 +1,12 @@
+
 @extends('layouts.master')
 @section('title', 'Consulta')
 
 @section('content')
 
-<h2>Consulta de Productos</h2>
+<meta charset="UTF-8"> 
 
+<h2>Consulta de Productos</h2>
 
 <form method="get">
 <h3>Selecciona la opción de búsqueda:</h3>
@@ -25,11 +27,13 @@
   <div class="col-sm-10">
     <input type="text" class="form-control" id="inputCodigo">
   </div>
+</div>
 
-  <br><div class="mb-3 row">
+<br><div class="mb-3 row">
   <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
   <div class="col-sm-10">
     <input type="text" class="form-control" id="inputNombre">
+  </div>
   </div>
 
   <br><div class="mb-3 row">
@@ -37,9 +41,8 @@
   <div class="col-sm-10">
     <input type="text" class="form-control" id="inputSucursal">
   </div>
+  </div>
 
-  <div class="container">
-    <input type="button" value="Resultado de la búsqueda">
-  </div><br>
+  <br /><button type="submit" class="btn btn-primary">Buscar</button>
 
   @stop
