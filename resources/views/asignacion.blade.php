@@ -25,21 +25,21 @@
   <br><h2>Cantidad de productos a cada Sucursal</h2><br>
 
 <br><br><div class="mb-3 row">
-  <label for="inputLaSerena" class="col-sm-2 col-form-label">Sucursal La Serena</label>
+  <label for="inputLaSerena" class="col-sm-2 col-form-label">Sucursal Playa Blanca</label>
   <div class="col-sm-10">
     <input type="number" class="form-control" id="inputLaSerena" min="0">
   </div>
   </div>
 
 <br><div class="mb-3 row">
-  <label for="inputCurico" class="col-sm-2 col-form-label">Sucursal Curico</label>
+  <label for="inputCurico" class="col-sm-2 col-form-label">Sucursal El Corralero</label>
   <div class="col-sm-10">
     <input type="number" class="form-control" id="inputCurico" min="0">
   </div>
   </div>
 
 <br><div class="mb-3 row">
-  <label for="inputOsorno" class="col-sm-2 col-form-label">Sucursal Osorno</label>
+  <label for="inputOsorno" class="col-sm-2 col-form-label">Sucursal Campo Lindo</label>
   <div class="col-sm-10">
     <input type="number" class="form-control" id="inputOsorno" min="0">
   </div>

@@ -34,7 +34,7 @@
   </div>
 
 <br><div class="mb-3 row">
-  <label for="inputSucursal" class="col-sm-2 col-form-label">Sucursal</label>
+  <label for="inputSucursal" class="col-sm-2 col-form-label">Nombre de Sucursal</label>
   <div class="col-sm-10">
     <input type="text" class="form-control" id="inputSucursal">
   </div>

@@ -4,10 +4,6 @@
 
 @section('content')
  
-<meta charset="UTF-8"> 
-
-<meta charset="UTF-8"> 
-
 <h2>Actualizar un producto</h2>
 
 <h4>Ingrese el código del producto para actualizar</h4>
