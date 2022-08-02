@@ -1,26 +1,34 @@
-
-  @extends('layouts.master')
-  @section('title', 'Login')
+@extends('layouts.master')
+@section('title', 'Login')
   
-  @section('content')
-  <meta charset="UTF-8"/>
-
-  <h2>Ingresa tu login y clave del sistema</h2>
+@section('content')
   
-  <br><div class="mb-3 row">
+<body style="background-color:#D2B48C">
+
+  <h2><i>INGRESA TU LOGIN Y CLAVE DEL SISTEMA</i></h2>
+  
+  <div align="center" class="mb-2 row">
     <label for="inputUsuario" class="col-sm-2 col-form-label">Usuario</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control" id="inputUsuario">
-    </div><br>
+    <div class="col-sm-2">
+      <input type="text" class="form-control" id="inputUsuario" placeholder="Usuario" required>
     </div>
+  </div>
 
-  <br><div class="mb-3 row">
-    <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-    <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword">
+  <div align="center" class="mb-2 row">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+    <div class="col-sm-2">
+      <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" required>
     </div>
-    </div>
-    
-    <br /><button type="submit" class="btn btn-primary">Ingresar</button>
+  </div>
 
-    @stop
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary btn-lg">Ingresar</button>       
+  </div>
+
+  <div align="center">
+    <a href="#">¿Olvidaste tu contraseña?</a>
+  </div>
+
+</body>
+
+@stop

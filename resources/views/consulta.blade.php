@@ -1,46 +1,61 @@
-
 @extends('layouts.master')
 @section('title', 'Consulta')
 
 @section('content')
 
-<h2>Consulta de Productos</h2>
+<body style="background-color:#D2B48C">
 
-<form method="get">
-<h3>Selecciona la opción de búsqueda:</h3>
-<br />
-<input name="intereses" type="radio" value="rbipeliculas" />CÓDIGO
-<br />
+  <h2><i>CONSULTA DE PRODUCTOS</i></h2>
 
-<input name="intereses" type="radio" value="rbilibros" />NOMBRE
-<br />
+  <form>
 
-<input name="intereses" type="radio" value="rbiinternet" />SUCURSAL
-</form>
+  <legend>Elige una opción de búsqueda</legend>
+    <label>
+      <input type="radio" name="opcion" value="código"> CÓDIGO
+    </label>
+    <label>
+      <input type="radio" name="opcion" value="nombre"> NOMBRE
+    </label>
+    <label>
+      <input type="radio" name="opcion" value="sucursal"> SUCURSAL
+    </label>
 
-<br><h3>BÚSQUEDA</h3>
+  </form></br>
 
-<div class="mb-3 row">
-  <label for="inputCodigo" class="col-sm-2 col-form-label">Código</label>
-  <div class="col-sm-10">
-    <input type="text" class="form-control" id="inputCodigo">
-  </div>
-</div>
+  <h4 class="col-sm-4" align="center">Ingrese el criterio de búsqueda</h4>
 
-<br><div class="mb-3 row">
-  <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
-  <div class="col-sm-10">
-    <input type="text" class="form-control" id="inputNombre">
-  </div>
+  <div align="center" class="mb-2 row">
+    <label for="inputCodigo" class="col-sm-2 col-form-label">Código</label>
+    <div class="col-sm-2">
+      <input type="text" class="form-control" id="inputCodigo">
+    </div>
   </div>
 
-  <br><div class="mb-3 row">
-  <label for="inputSucursal" class="col-sm-2 col-form-label">Sucursal</label>
-  <div class="col-sm-10">
-    <input type="text" class="form-control" id="inputSucursal">
-  </div>
+  <div align="center" class="mb-2 row">
+    <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" id="inputNombre">
+    </div>
   </div>
 
-  <br /><button type="submit" class="btn btn-primary">Buscar</button>
+  <div align="center" class="mb-2 row">
+    <label for="inputDescripción" class="col-sm-2 col-form-label">Descripción</label>
+    <div class="col-sm-8">
+      <input type="text" class="form-control" id="inputDescripcion">
+    </div>
+  </div>
 
-  @stop
+  <div align="center" class="mb-2 row">
+    <label for="inputSucursal" class="col-sm-2 col-form-label">Sucursal</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" id="inputSucursal">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary btn-lg">Buscar</button>       
+  </div>
+
+</body>
+
+@stop
