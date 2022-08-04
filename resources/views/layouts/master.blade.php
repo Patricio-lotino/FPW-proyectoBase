@@ -9,16 +9,16 @@
   <body>
    
   @section('header')
-        <h2>Software CLEAN 1.0</h2><hr>
+        <h2 class="text-center">Software CLEAN 1.0</h2><hr>
   @show
 
-    <div class="container">
+    <div class="container text-center">
         @yield('content')
     </div>
 
   @section('footer')
-        <hr><h5>Distribuidora de Artículos de Aseo "El Limpiazo"</h5>
-        <h6>Todos los derechos reservados</h6>
+        <hr><h5 class="text-center">Distribuidora de Artículos de Aseo "El Limpiazo"</h5>
+        <h6 class="text-center">Todos los derechos reservados</h6>
 
   @show
 

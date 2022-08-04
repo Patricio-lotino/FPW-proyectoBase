@@ -3,7 +3,7 @@
 
 @section('content')
 
-<body style="background-color:#D2B48C">
+<body style="background-color:#EBDEF0">
 
   <h2><i>DAR DE BAJA UN PRODUCTO</i></h2>
 
@@ -15,7 +15,7 @@
   </div>
 
   <div class="form-group">
-    <button type="submit" class="btn btn-primary btn-lg">Buscar</button>       
+    <button type="submit" style="background-color:#D27EF0" class="btn btn-lg">Buscar</button>       
   </div></br>
 
   <div align="center" class="mb-2 row">
@@ -26,19 +26,19 @@
   </div>
 
   <div class="form-group">
-    <button type="submit" class="btn btn-primary btn-lg">Dar de Baja</button>       
+    <button type="submit" style="background-color:#D27EF0" class="btn btn-lg">Dar de Baja</button>       
   </div></br>
 
-  <h4 class="col-sm-3" align="center">Si desea eliminar el producto</h4>
+  <h4 class="col-sm-12" align="center">Si desea eliminar el producto</h4>
 
   <div class="form-group">
-    <button type="submit" class="btn btn-primary btn-lg">Presione aquí</button>       
+    <button type="submit" style="background-color:#D27EF0" class="btn btn-lg">Presione aquí</button>       
   </div></br>
 
   <ul style="BORDER: rgb(128,128,128) 2px solid; FONT-SIZE: 12pt; FONT-FAMILY: Arial; 
-         BACKGROUND-COLOR: #ADFF2F" align="center" class="col-sm-2">
-    <li><font color:"red"><a href="/inicio">Volver a inicio</a></font></li>
-    <li><font color:"red"><a href="/login">Salir del Sistema</a></font></li>
+         BACKGROUND-COLOR: #E2BAF1" align="center" class="col-sm-2">
+    <li><font color:"red"><a class="nav-link active" aria-current="page" href="/inicio">Volver a inicio</a></font></li>
+    <li><font color:"red"><a class="nav-link active" aria-current="page" href="/login">Salir del Sistema</a></font></li>
   </ul>
 
 </body>

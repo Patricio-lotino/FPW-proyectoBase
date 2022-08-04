@@ -3,8 +3,8 @@
   
 @section('content')
   
-<body style="background-color:#D2B48C">
-
+<body style="background-color:#EBDEF0">
+<div class="container text-center">
   <h2><i>INGRESA TU LOGIN Y CLAVE DEL SISTEMA</i></h2>
   
   <div align="center" class="mb-2 row">
@@ -22,14 +22,14 @@
   </div></br>  
 
   <ul style="BORDER: rgb(128,128,128) 2px solid; FONT-SIZE: 12pt; FONT-FAMILY: Arial; 
-         BACKGROUND-COLOR: #FFDEAD" align="center" class="col-sm-2">
-  <li><font color:"red"><a href="/inicio">INGRESAR</a></font></li>
+         BACKGROUND-COLOR: #E2BAF1" align="center" class="col-sm-2">
+  <ul><font color:"red"><a class="nav-link active" aria-current="page" href="/inicio">INGRESAR</a></font></ul>
   </ul>
 
   <div align="center">
-    <a href="#">¿Olvidaste tu contraseña?</a>
+    <a  class="nav-link active" aria-current="page" href="#">¿Olvidaste tu contraseña?</a>
   </div>
 
 </body>
-
+</div>
 @stop
