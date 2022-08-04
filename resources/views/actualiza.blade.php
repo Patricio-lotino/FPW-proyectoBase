@@ -66,7 +66,14 @@
 
   <div class="form-group">
     <button type="submit" class="btn btn-primary btn-lg">Guardar los cambios</button>       
-  </div>
+  </div></br>  
+
+  <ul style="BORDER: rgb(128,128,128) 2px solid; FONT-SIZE: 12pt; FONT-FAMILY: Arial; 
+         BACKGROUND-COLOR: #ADFF2F" align="center" class="col-sm-2">
+    <li><font color:"red"><a href="/inicio">Volver a inicio</a></font></li>
+    <li><font color:"red"><a href="/login">Salir del Sistema</a></font></li>
+  </ul>
+
 </body>
 
 @stop
