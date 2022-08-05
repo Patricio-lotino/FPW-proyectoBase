@@ -9,7 +9,19 @@
   <body>
    
   @section('header')
-        <h2 class="text-center">Software CLEAN 1.0</h2><hr>
+  <div class="container">
+  <nav class="navbar" style="background-color:#EBDEF0">
+  <div class="container-fluid text-center">
+    <div class="navbar-brand"> 
+      <h2>Software CLEAN 1.0</h2>
+    </div>
+    <form class="d-flex">
+      <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
+      <button class="btn" style="background-color:#D27EF0" type="submit">Buscar</button>
+    </form>
+  </div>
+</nav>
+        <hr>
   @show
 
     <div class="container text-center">
@@ -23,5 +35,6 @@
   @show
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </div>
   </body>
 </html>
