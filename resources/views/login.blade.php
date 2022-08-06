@@ -6,6 +6,7 @@
 <body style="background-color:#EBDEF0">
 <div class="container text-center">
   <h2><i>INGRESA TU LOGIN Y CLAVE DEL SISTEMA</i></h2>
+  <hr>
   
   <div align="center" class="mb-2 row">
     <label for="inputUsuario" class="col-sm-2 col-form-label">Usuario</label>
@@ -31,5 +32,5 @@
   </div>
 
 </body>
-</div>
+
 @stop

@@ -6,6 +6,7 @@
 <body style="background-color:#EBDEF0">
 
   <h2><i>CONSULTA DE PRODUCTOS</i></h2>
+  <hr>
 
   <form>
 

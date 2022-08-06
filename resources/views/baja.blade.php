@@ -6,6 +6,7 @@
 <body style="background-color:#EBDEF0">
 
   <h2><i>DAR DE BAJA UN PRODUCTO</i></h2>
+  <hr>
 
   <div align="center" class="mb-2 row">
     <label for="inputCodigo" class="col-sm-2 col-form-label">Ingrese el Código</label>
