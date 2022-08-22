@@ -6,23 +6,29 @@
 <body style="background-color:#D2B48C">
 
   <h2><i>Bienvenido al Sistema de Gestión de Stock de Productos</i></h2>
+  <hr>
 
-  <h4><i>¿Qué desea hacer?</i></h4></br>
-
-  <ul style="background-color:#BDB76B" class="col-sm-4">
-    <li><a href="/actualiza">Actualizar los datos de un producto</a></li>
-    <li><a href="/asignacion">Asignar productos a una sucursal</a></li>
-    <li><a href="/baja">Dar de Baja</a> </li>
-    <li><a href="/categoria">Ver Categorias de productos</a></li>
-    <li><a href="/consulta">Consultar productos</a></li>
-    <li><a href="/registro">Registrar un producto</a></li>
-    <li><a href="/sucursal">Ver Sucursales</a></li>
+<div class="container">
+  <div class="card text-center" style="background-color:#F0C4FF"><br>
+    <h4><i>¿Qué desea hacer?</i></h4>
+  <div class="card-header">
+  </div>
+  <ul style="background-color:#E2AFF4">
+    <ul><a class="nav-link active" aria-current="page" href="/actualiza" target="_blank">Actualizar los datos de un producto</a></ul>
+    <ul><a class="nav-link active" aria-current="page" href="/asignacion" target="_blank">Asignar productos a una sucursal</a></ul>
+    <ul><a class="nav-link active" aria-current="page" href="/baja" target="_blank">Dar de Baja</a></ul>
+    <ul><a class="nav-link active" aria-current="page" href="/categoria" target="_blank">Ver Categorias de productos</a></ul>
+    <ul><a class="nav-link active" aria-current="page" href="/consulta" target="_blank">Consultar productos</a></ul>
+    <ul><a class="nav-link active" aria-current="page" href="/listado" target="_blank">Listar productos</a></ul>
+    <ul><a class="nav-link active" aria-current="page" href="/registro" target="_blank">Registrar un producto</a></ul>
+    <ul><a class="nav-link active" aria-current="page" href="/sucursal" target="_blank">Ver Sucursales</a></ul>
   </ul>
+  <div class="card-footer text-muted" style="background-color:#F0C4FF"><br>
+  </div>
 
-  <ul style="BORDER: rgb(128,128,128) 2px solid; FONT-SIZE: 12pt; FONT-FAMILY: Arial; 
-         BACKGROUND-COLOR: #FFDEAD" align="center" class="col-sm-2">
-  <li><font color:"red"><a href="/login">SALIR</a></font></li>
-  </ul>
+  <div style="border:2px solid brown; border-radius:22px; FONT-SIZE: 12pt; FONT-FAMILY: Arial; background-color:#48D1CC" align="center" class="col-sm-2">
+    <a href="/login">Salir del Sistema</a>
+  </div>
 
 </body>
 

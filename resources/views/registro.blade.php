@@ -6,73 +6,72 @@
 <body style="background-color:#D2B48C">
 
   <h2><i>REGISTRO DE PRODUCTOS</i></h2>
+  <hr>
   
-  <div align="center" class="mb-2 row">
-    <label for="inputId" class="col-sm-2 col-form-label">Id</label>
-    <div class="col-sm-1">
-      <input type="text" class="form-control" id="inputId">
-    </div>
-  </div>
+<form method="post" action="{{ route('guardarproducto') }}">
 
-  <div align="center" class="mb-2 row">
-    <label for="inputCodigo" class="col-sm-2 col-form-label">Código</label>
+  <div align="right" class="mb-2 row">
+    <label for="codigo" class="col-sm-2 col-form-label">Código</label>
     <div class="col-sm-2">
-      <input type="text" class="form-control" id="inputCodigo">
+      <input type="text" class="form-control" id="codigo" name="codigo">
     </div>
   </div>
 
-  <div align="center" class="mb-2 row">
-    <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
+  <div align="right" class="mb-2 row">
+    <label for="nombre" class="col-sm-2 col-form-label">Nombre</label>
     <div class="col-sm-5">
-      <input type="text" class="form-control" id="inputNombre">
+      <input type="text" class="form-control" id="nombre" name="nombre">
     </div>
   </div>
 
-  <div align="center" class="mb-2 row">
-    <label for="inputCategoria" class="col-sm-2 col-form-label">Categoría</label>
+  <div align="right" class="mb-2 row">
+    <label for="categoria" class="col-sm-2 col-form-label">Categoría</label>
     <div class="col-sm-5">
-      <input type="text" class="form-control" id="inputCategoria">
+      <input type="text" class="form-control" id="categoria" name="categoria">
     </div>
   </div>
 
-  <div align="center" class="mb-2 row">
-    <label for="inputSucursal" class="col-sm-2 col-form-label">Nombre de Sucursal</label>
-    <div class="col-sm-5">
-      <input type="text" class="form-control" id="inputSucursal">
-    </div>
-  </div>
-
-  <div align="center" class="mb-2 row">
-    <label for="inputDescripción" class="col-sm-2 col-form-label">Descripción</label>
+  <div align="right" class="mb-2 row">
+    <label for="descripción" class="col-sm-2 col-form-label">Descripción</label>
     <div class="col-sm-8">
-      <input type="text" class="form-control" id="inputDescripcion">
+      <input type="text" class="form-control" id="descripcion" name="descripcion">
     </div>
   </div>
 
-  <div align="center" class="mb-2 row">
-    <label for="inputCantidad" class="col-sm-2 col-form-label">Cantidad</label>
+  <div align="right" class="mb-2 row">
+    <label for="cantidad" class="col-sm-2 col-form-label">Cantidad</label>
     <div class="col-sm-1">
-      <input type="number" class="form-control" id="inputCantidad" min="0">
+      <input type="number" class="form-control" id="cantidad" min="0" name="cantidad">
     </div>
   </div>
 
-  <div align="center" class="mb-2 row">
-    <label for="inputPrecio" class="col-sm-2 col-form-label">Precio de Venta</label>
+  <div align="right" class="mb-2 row">
+    <label for="precio" class="col-sm-2 col-form-label">Precio de Venta</label>
     <div class="col-sm-2">
-      <input type="number" class="form-control" id="inputPrecio" min="0">
+      <input type="number" class="form-control" id="precio" min="0" name="precio">
     </div>
   </div>
 
   <br><div class="form-group">
-    <button type="submit" class="btn btn-primary btn-lg">Registrar Producto</button>       
+    <button type="submit" class="btn btn-primary btn-lg">Guardar</button>       
   </div></br>
 
-  <ul style="BORDER: rgb(128,128,128) 2px solid; FONT-SIZE: 12pt; FONT-FAMILY: Arial; 
-         BACKGROUND-COLOR: #ADFF2F" align="center" class="col-sm-2">
-    <li><font color:"red"><a href="/inicio">Volver a inicio</a></font></li>
-    <li><font color:"red"><a href="/login">Salir del Sistema</a></font></li>
-  </ul>
+  @if($errors->any())
+    <div class="alert alert-danger">
+      <ul>
+        @foreach($errors->all() as $error)
+          <li>{{ $error }}</li>
+        @endforeach
+      </ul>
+    </div>
+  @endif  
 
-</body>  
+  </form>
+
+  <div style="border:2px solid brown; border-radius:22px; FONT-SIZE: 12pt; FONT-FAMILY: Arial; background-color:#48D1CC" align="center" class="col-sm-2">
+    <a href="/login">Salir del Sistema</a>
+  </div>
+
+  </body>  
 
 @stop

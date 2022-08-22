@@ -6,8 +6,9 @@
 <body style="background-color:#D2B48C">
 
   <h2><i>ACTUALIZAR UN PRODUCTO</i></h2>
+  <hr>
 
-  <div align="center" class="mb-2 row">
+  <div align="right" class="mb-2 row">
     <label for="inputCodigo" class="col-sm-2 col-form-label">Ingrese el Código</label>
     <div class="col-sm-2">
       <input type="text" class="form-control" id="inputCodigo" placeholder="Código" required>
@@ -20,21 +21,21 @@
 
   <h4 class="col-sm-2" align="center">Datos</h4> 
 
-  <div align="center" class="mb-2 row">
+  <div align="right" class="mb-2 row">
     <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
     <div class="col-sm-5">
       <input type="text" class="form-control" id="inputNombre">
     </div>
   </div>
 
-  <div align="center" class="mb-2 row">
+  <div align="right" class="mb-2 row">
     <label for="inputPrecio" class="col-sm-2 col-form-label">Precio de Venta</label>
     <div class="col-sm-2">
       <input type="number" class="form-control" id="inputPrecio" min="0">
     </div>
   </div>
 
-  <div align="center" class="mb-2 row">
+  <div align="right" class="mb-2 row">
     <label for="inputDescripción" class="col-sm-2 col-form-label">Descripción</label>
     <div class="col-sm-8">
       <input type="text" class="form-control" id="inputDescripcion">
@@ -42,37 +43,38 @@
   </div>
 
   <h4 class="col-sm-2" align="center">Actualizar</h4> 
-
-  <div align="center" class="mb-2 row">
-    <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
+  
+<form>
+  <div align="right" class="mb-2 row">
+    <label for="nombre" class="col-sm-2 col-form-label">Nombre</label>
     <div class="col-sm-5">
-      <input type="text" class="form-control" id="inputNombre">
+      <input type="text" class="form-control" id="inputNombre" name="nombre">
     </div>
   </div>
 
-  <div align="center" class="mb-2 row">
-    <label for="inputPrecio" class="col-sm-2 col-form-label">Precio de Venta</label>
+  <div align="right" class="mb-2 row">
+    <label for="precio" class="col-sm-2 col-form-label">Precio de Venta</label>
     <div class="col-sm-2">
-      <input type="number" class="form-control" id="inputPrecio" min="0">
+      <input type="number" class="form-control" id="inputPrecio" min="0" name="precio">
     </div>
   </div>
 
-  <div align="center" class="mb-2 row">
-    <label for="inputDescripción" class="col-sm-2 col-form-label">Descripción</label>
+  <div align="right" class="mb-2 row">
+    <label for="descripción" class="col-sm-2 col-form-label">Descripción</label>
     <div class="col-sm-8">
-      <input type="text" class="form-control" id="inputDescripcion">
+      <input type="text" class="form-control" id="inputDescripcion" name="descripcion">
     </div>
   </div>
+
+</form>
 
   <div class="form-group">
     <button type="submit" class="btn btn-primary btn-lg">Guardar los cambios</button>       
-  </div></br>  
+  </div></br>
 
-  <ul style="BORDER: rgb(128,128,128) 2px solid; FONT-SIZE: 12pt; FONT-FAMILY: Arial; 
-         BACKGROUND-COLOR: #ADFF2F" align="center" class="col-sm-2">
-    <li><font color:"red"><a href="/inicio">Volver a inicio</a></font></li>
-    <li><font color:"red"><a href="/login">Salir del Sistema</a></font></li>
-  </ul>
+  <div style="border:2px solid brown; border-radius:22px; FONT-SIZE: 12pt; FONT-FAMILY: Arial; background-color:#48D1CC" align="center" class="col-sm-2">
+    <a href="/login">Salir del Sistema</a>
+  </div>
 
 </body>
 
