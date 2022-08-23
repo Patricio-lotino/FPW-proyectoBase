@@ -25,42 +25,43 @@
       <input type="text" class="form-control" id="inputNombre">
     </div>
   </div>
+  
+  <form>
 
   <h4 class="col-sm-3" align="center">Cantidad de productos</h4>
 
   <div align="right" class="mb-2 row">
-    <label for="inputPlayaBlanca" class="col-sm-2 col-form-label">Sucursal Playa Blanca</label>
+    <label for="playaBlanca" class="col-sm-2 col-form-label">Sucursal Playa Blanca</label>
     <div class="col-sm-1">
-      <input type="number" class="form-control" id="inputPlayaBlanca" min="0">
+      <input type="number" class="form-control" id="playaBlanca" name='playaBlanca' min="0">
     </div>
   </div>
 
   <div align="right" class="mb-2 row">
-    <label for="inputElCorralero" class="col-sm-2 col-form-label">Sucursal El Corralero</label>
+    <label for="elCorralero" class="col-sm-2 col-form-label">Sucursal El Corralero</label>
     <div class="col-sm-1">
-      <input type="number" class="form-control" id="inputElCorralero" min="0">
+      <input type="number" class="form-control" id="elCorralero" name='elCorralero' min="0">
     </div>
   </div>
 
   <div align="right" class="mb-3 row">
-    <label for="inputCampoLindo" class="col-sm-2 col-form-label">Sucursal Campo Lindo</label>
+    <label for="campoLindo" class="col-sm-2 col-form-label">Sucursal Campo Lindo</label>
     <div class="col-sm-1">
-      <input type="number" class="form-control" id="inputCampoLindo" min="0">
+      <input type="number" class="form-control" id="campoLindo" name='campoLindo' min="0">
     </div>
   </div>
 
-<<<<<<< HEAD
+  <br>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary btn-lg">Guardar</button>       
+  </div></br>
+
+</form>
+
   <div style="border:2px solid brown; border-radius:22px; FONT-SIZE: 12pt; FONT-FAMILY: Arial; background-color:#48D1CC" align="center" class="col-sm-2">
     <a href="/login">Salir del Sistema</a>
   </div>
-=======
-  <ul style="BORDER: rgb(128,128,128) 2px solid; FONT-SIZE: 12pt; FONT-FAMILY: Arial; 
-         BACKGROUND-COLOR: #E2BAF1" align="center" class="col-sm-2">
-    <li><font color:"red"><a class="nav-link active" aria-current="page" href="/inicio">Volver a inicio</a></font></li>
-    <li><font color:"red"><a class="nav-link active" aria-current="page" href="/login">Salir del Sistema</a></font></li>
-  </ul>
 
 </body>
->>>>>>> b43478d601de0a51de5d00d24bacf5dc6b9d53ac
-  
+
 @stop
