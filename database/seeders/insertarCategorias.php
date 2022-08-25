@@ -14,7 +14,7 @@ class insertarCategorias extends Seeder
      */
     public function run()
     {
-        DB::table('categoria')->insert(array(
+        DB::table('categorias')->insert(array(
             [
                 'nombre' => 'Muebles de cocina',
                 'descripcion' => 'Todo tipo de mobiliario para la cocina',

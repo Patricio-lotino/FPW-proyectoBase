@@ -14,7 +14,7 @@ class insertarSucursales extends Seeder
      */
     public function run()
     {
-        DB::table('sucursal')->insert(array(
+        DB::table('sucursales')->insert(array(
         [
             'nombre' => 'Playa Blanca',
             'ciudad' => 'La Serena',
