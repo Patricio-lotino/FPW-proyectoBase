@@ -26,7 +26,7 @@
     </div>
   </div>
   
-  <form>
+  <form method="post" action = "guardar">
 
   <h4 class="col-sm-3" align="center">Cantidad de productos</h4>
 

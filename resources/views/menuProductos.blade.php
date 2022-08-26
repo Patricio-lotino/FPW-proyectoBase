@@ -9,10 +9,10 @@
 <h2><i>PRODUCTOS</i></h2>
 <hr>
 
-  <a href='listado' type="button" class="btn btn-success">Listar</a>
-  <a href='registro' type="button" class="btn btn-success">Agregar</a>
-  <a href='actualiza' type="button" class="btn btn-success">Modificar</a>
-  <a href='baja' type="button" class="btn btn-success">Dar de Baja/Eliminar</a>
+  <a href='listado' class="btn btn-success">Listar</a>
+  <a href='registro'class="btn btn-success">Agregar</a>
+  <a href='actualiza' class="btn btn-success">Modificar</a>
+  <a href='baja' class="btn btn-success">Dar de Baja/Eliminar</a>
 
   <div style="border:2px solid brown; border-radius:22px; FONT-SIZE: 12pt; FONT-FAMILY: Arial; background-color:#48D1CC" align="center" class="col-sm-2">
     <a href="/inicio">Ir a Inicio</a>

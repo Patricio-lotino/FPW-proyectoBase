@@ -7,8 +7,9 @@
 
   <h2><i>REGISTRO DE CATEGORÍAS</i></h2>
   <hr>
-  
-<form>
+
+<div>  
+<form method="post" action = "guardar">
 
   <div align="right" class="mb-2 row">
     <label for="nombre" class="col-sm-2 col-form-label">Nombre</label>
@@ -38,7 +39,8 @@
     </div>
   @endif  
 
- </form>
+</form>
+</div>
 
  <div style="border:2px solid brown; border-radius:22px; FONT-SIZE: 12pt; FONT-FAMILY: Arial; background-color:#48D1CC" align="center" class="col-sm-2">
     <a href="/menuCategorias">Ir al Menú</a>

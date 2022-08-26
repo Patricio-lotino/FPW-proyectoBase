@@ -8,7 +8,7 @@
   <h2><i>REGISTRO DE SUCURSALES</i></h2>
   <hr>
   
-<form>
+<form method="post" action = "guardar">
 
   <div align="right" class="mb-2 row">
     <label for="nombre" class="col-sm-2 col-form-label">Nombre</label>

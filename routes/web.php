@@ -70,14 +70,29 @@ Route::get('/sucursal', [SucursalController::class, 'index']);
 /*Route::get('listar', [
     'uses' => 'App\Http\Controllers\AgregarController@listar',
     'as' => 'listarproducto'
-]);
+]);*/
 
-Route::get('agregar', [
-    'uses' => 'App\Http\Controllers\AgregarController@agregar',
-    'as' => 'agregarproducto'
-]);
+Route::get('/registro', [ListadoController::class, 'agregar']);
 
-Route::post('modificar', [
+Route::post('/guardar', [ListadoController::class, 'guardar']);
+
+Route::get('/actualiza', [ActualizaController::class, 'agregar']);
+
+Route::post('/guardar', [ActualizaController::class, 'guardar']);
+
+Route::get('/registroCategoria', [ListadoCategoriaController::class, 'agregar']);
+
+Route::post('/guardar', [ListadoCategoriaController::class, 'guardar']);
+
+Route::get('/registroSucursal', [ListadoSucursalController::class, 'agregar']);
+
+Route::post('/guardar', [ListadoSucursalController::class, 'guardar']);
+
+Route::get('/asignacion', [AsignarProdSucursalController::class, 'agregar']);
+
+Route::post('/guardar', [AsignarProdSucursalController::class, 'guardar']);
+
+/*Route::post('modificar', [
     'uses' => 'App\Http\Controllers\AgregarController@modificar',
     'as' => 'modificarproducto'
 ]);
