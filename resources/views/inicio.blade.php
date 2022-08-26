@@ -15,7 +15,6 @@
     <a class="nav-link active" href="/menuProductos" target="_blank">PRODUCTOS</a>
     <a class="nav-link active" href="/menuCategorias" target="_blank">CATEGORÍAS</a>
     <a class="nav-link active" href="/menuSucursales" target="_blank">SUCURSALES</a>    
-    <a class="nav-link active" href="/asignacion" target="_blank">Asignar productos a una sucursal</a>   
   </ul>
   
 

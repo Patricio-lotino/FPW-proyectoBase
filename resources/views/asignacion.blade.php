@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Asignación')
+@section('title', 'Asignar_Prod_Sucursal')
 
 @section('content')
 
@@ -57,6 +57,14 @@
   </div></br>
 
 </form>
+
+  <div style="border:2px solid brown; border-radius:22px; FONT-SIZE: 12pt; FONT-FAMILY: Arial; background-color:#48D1CC" align="center" class="col-sm-2">
+    <a href="/menuSucursales">Ir al Menú</a>
+  </div>
+
+  <div style="border:2px solid brown; border-radius:22px; FONT-SIZE: 12pt; FONT-FAMILY: Arial; background-color:#48D1CC" align="center" class="col-sm-2">
+    <a href="/inicio">Ir a Inicio</a>
+  </div>
 
   <div style="border:2px solid brown; border-radius:22px; FONT-SIZE: 12pt; FONT-FAMILY: Arial; background-color:#48D1CC" align="center" class="col-sm-2">
     <a href="/login">Salir del Sistema</a>
